@@ -4,8 +4,7 @@
   "description": "",
   "main": "profile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo 'No build step required'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -14,4 +13,3 @@
     "express": "^4.19.2"
   }
 }
-
