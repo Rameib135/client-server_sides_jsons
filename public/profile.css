@@ -1,0 +1,277 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    background: url('/background.jpg') fixed repeat;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+}
+
+/* Background Layer */
+.background-layer {
+    background: url('/background.jpg') fixed repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* Content Layer */
+.content-layer {
+    width: 80%;
+    margin: 3% auto;
+    box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
+}
+
+.margin-around {
+    margin: 10px;
+}
+.margin-up-down{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Rammetto One', Cursive, sans-serif;
+    padding-top: 10px;
+    text-shadow: 3px 3px #999999;
+}
+
+/* Banner styles */
+.banner {
+    position: relative;
+    height: 350px;
+}
+
+.banner div {
+    position: absolute;
+    left: 2%;
+}
+
+.banner img {
+    width: 200px;
+    height: 200px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-top: 90%;
+    margin-left: -2%;
+}
+
+/* New styles for additional images */
+.profile-img {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.info-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.endorsement-img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+/* Info Section styles */
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.info-block {
+    display: flex;
+    gap: 20px;
+}
+
+.text-block {
+    width: 70%;
+}
+
+.image-block {
+    width: 30%;
+}
+
+.image-block img {
+    width: 100%;
+    display: block;
+}
+
+/* Endorsement Section styles */
+.endorsement-section {
+    background: url('clouds.webp') fixed repeat;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.endorsement-section h2 {
+    font-size: 2.5vw;
+    font-family: 'Rammetto One', cursive;
+    margin-bottom: 20px;
+}
+
+.endorsements-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    text-align: center;
+    margin: 0 77px 0 15px;
+}
+
+.endorsement-section .quote hr {
+    width: 50%;
+    /* Adjust the width as needed */
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.endorsement-section .quote {
+    margin-bottom: 15px;
+}
+
+.endorsement-section .quote .white-box {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: 10px solid #cccaca;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.endorsement-section .quote p {
+    margin-bottom: 5px;
+}
+
+.endorsement-section .quote span {
+    font-style: italic;
+}
+
+/* Friends Section styles */
+.friends-section {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.friends-section h2 {
+    font-size: 2.5vw;
+    font-family: 'Rammetto One', cursive;
+    margin-bottom: 20px;
+}
+
+.friends-block img {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #5f5b5b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.info-content {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-div,
+.right-div {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.center-in-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-in-div img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center-in-div > div {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.upDiv {
+    padding: 10px;
+}
+
+.downDiv {
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row img {
+    width: 24%;
+    height: auto;
+    margin: 5px;
+}
+
+.row {
+    width: 100%;
+}
+
+.col {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.line-spacing {
+    margin-bottom: 20px;
+}

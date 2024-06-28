@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/profile.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <select id="profile-select" onchange="loadProfileData()">
+        <option value="jessy">Jessy</option>
+        <option value="livlig">Livlig</option>
+        <option value="mickey">Mickey</option>
+        <option value="myprofile">My Profile</option>
+        <option value="teddy">Teddy</option>
+    </select>
+    <div class="content-layer">
+        <div class="banner" id="banner-section">
+            <div class="banner">
+        <div>
+            <img id="profile-img" class="image-block" src="" alt="Profile Image">
+        </div>
+        </div>
+        </div>
+
+        <div class="info-section" id="bio-section">
+            <div class="text-block">
+                <h1 id="bio-title"></h1>
+                <p id="bio-content"></p>
+            </div>
+            <div class="image-block">
+                <img id="info-img" class="info-img" src="" alt="Info Image">
+            </div>
+        </div>
+
+        <div class="endorsement-section" id="endorsement-section">
+            <h2>ENDORSEMENTS</h2>
+            <div class="endorsements-container">
+                <img id="endorsement-img" class="center-in-div left-div " src="" alt="Endorsement Image">
+                <div id="endorsements"></div>
+            </div>
+        </div>
+            
+        
+    
+    
+
+        <div class="friends-section" id="friends-section">
+            <h2>Squad Debugging Whole the Meet</h2>
+            <div class="friends-block" id="friends"></div>
+        </div>
+    </div>
+    <script src="/profile.js"></script>
+</body>
+</html>
