@@ -37,12 +37,10 @@ body {
 .margin-around {
     margin: 10px;
 }
-
-.margin-up-down {
+.margin-up-down{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 /* Header */
 h1 {
     text-align: center;
@@ -103,22 +101,19 @@ h1 {
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-    flex-wrap: wrap;
 }
 
 .info-block {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .text-block {
-    width: 100%;
+    width: 70%;
 }
 
 .image-block {
-    width: 100%;
-    margin-top: 20px;
+    width: 30%;
 }
 
 .image-block img {
@@ -142,7 +137,6 @@ h1 {
 .endorsements-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .quote {
@@ -280,73 +274,53 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Responsive design for mobile */
-@media only screen and (max-width: 768px) {
+/* Mobile Responsive */
+@media screen and (max-width: 600px) {
     .content-layer {
         width: 95%;
-        margin: 1% auto;
-    }
-
-    .banner {
-        height: 200px;
+        margin: 2% auto;
     }
 
     .banner img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin-top: 70%;
     }
 
-    .profile-img {
-        width: 100px;
-        height: 100px;
+    .friends-block img {
+        width: 80px;
+        height: 120px;
+        padding: 5px;
+        margin-bottom: 10px;
     }
 
-    .info-section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .info-block {
-        flex-direction: column;
-    }
-
-    .text-block {
-        width: 100%;
-    }
-
-    .image-block {
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .endorsements-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .endorsement-img {
-        width: 100px;
-        height: auto;
-        margin-bottom: 20px;
-    }
-
-    .quote {
-        margin: 0 20px 20px;
-    }
-
-    .friends-section h2 {
+    .friends-section h2,
+    .endorsement-section h2 {
         font-size: 4vw;
     }
 
-    .friends-block img {
-        width: 100px;
-        height: 150px;
-        margin: 10px;
+    .profile-selector select {
+        width: 100%;
+        padding: 12px;
+        font-size: 1em;
     }
 
-    footer {
-        font-size: 12px;
+    .text-block,
+    .image-block {
+        width: 100%;
+    }
+
+    .display-flex {
+        flex-direction: column;
+    }
+
+    .endorsements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .endorsements-container img {
+        margin-bottom: 20px;
     }
 }

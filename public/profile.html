@@ -7,20 +7,20 @@
     <title>Profile Page</title>
 </head>
 <body>
-    <select id="profile-select" onchange="loadProfileData()">
-        <option value="jessy">Jessy</option>
-        <option value="livlig">Livlig</option>
-        <option value="mickey">Mickey</option>
-        <option value="myprofile">My Profile</option>
-        <option value="teddy">Teddy</option>
-    </select>
+    <div class="profile-selector">
+        <select id="profile-select" onchange="loadProfileData()">
+            <option value="jessy">Jessy</option>
+            <option value="livlig">Livlig</option>
+            <option value="mickey">Mickey</option>
+            <option value="myprofile">My Profile</option>
+            <option value="teddy">Teddy</option>
+        </select>
+    </div>
     <div class="content-layer">
         <div class="banner" id="banner-section">
-            <div class="banner">
-        <div>
-            <img id="profile-img" class="image-block" src="" alt="Profile Image">
-        </div>
-        </div>
+            <div>
+                <img id="profile-img" class="image-block" src="" alt="Profile Image">
+            </div>
         </div>
 
         <div class="info-section" id="bio-section">
@@ -40,10 +40,6 @@
                 <div id="endorsements"></div>
             </div>
         </div>
-            
-        
-    
-    
 
         <div class="friends-section" id="friends-section">
             <h2>Squad Debugging Whole the Meet</h2>
