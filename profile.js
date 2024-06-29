@@ -46,9 +46,7 @@ app.get('/data/:folderName', async (req, res) => {
     }
 });
 
-app.use('/.netlify/functions/profile', router);
-
-const port = 3020;
+const port = 3022;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
