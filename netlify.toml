@@ -1,0 +1,16 @@
+[build]
+  publish = "public"
+  command = "echo 'No build step required'"
+
+[functions]
+  directory = "functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
+[[edge_functions]]
+function = "hello"
+path = "/test"
